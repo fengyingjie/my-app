@@ -17,7 +17,7 @@ export class ProductListComponent implements OnInit {
   ngOnInit(): void {
     this.products = new Array<Product>(4)
     this.products[0] = new Product
-    this.products[0].name = "name1"
+    this.products[0].name = "name"
     this.products[1] = new Product
     this.products[1].name = "n2"
     this.products[2] = new Product
