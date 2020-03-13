@@ -7,13 +7,14 @@ import { Product } from '../Product';
   templateUrl: './product-details.component.html',
   styleUrls: ['./product-details.component.less']
 })
+
 export class ProductDetailsComponent implements OnInit {
-  
+
   private route: ActivatedRoute;
   product: Product;
 
-  constructor(product: Product) {
-    this.product = product;
+  constructor() {
+    //this.product = product;
   }
 
   ngOnInit(): void {

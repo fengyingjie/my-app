@@ -9,8 +9,8 @@ import { newArray } from '@angular/compiler/src/util';
 })
 export class ProductListComponent implements OnInit {
 
-  products : Array<Product>
-  constructor() { 
+  products: Array<Product>;
+  constructor() {
 
   }
 
